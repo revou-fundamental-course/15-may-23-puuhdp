@@ -1,0 +1,82 @@
+<!Doctype html>
+<html>
+    <head>
+        <link rel="stylesheet" type="text/css" href="style.css">
+        <script type="text/javascript" src="script.js"></script>
+        <title>Katik : Kalkulator Metematik</title>
+    </head>
+
+    <body>
+        <div class="header">       
+            <h1> Katik Kalkulator Matematik</h1>
+        </div>
+        <div class="text-center">    
+            <h2>Welcome to Katik</h2><br>
+                <p>Hai Sobat , selamat datang di katik :)<br>
+                Sebuah web apps sederhana yang berfungsi untuk menghitung nilai luas dan keliling bangun datar</p><br>
+        </div>
+             <div class="header">
+                <h3 class="text-center">Persegi</h3>
+            </div>
+                <br><p class="text-center">P : Panjang</p><br>
+
+            <div class="header">
+                <h2>Luas Persegi</h2>
+            </div>
+            <div class="text-center">
+                <br><image src="bujursangkar.png">
+                    <p><b>Bujur Sangkar</b></p>
+                </image>
+            </div>
+                <br><p>Rumus Luas Persegi :
+                <p class="text-center"><b>L = S x S</b></p>
+                <p>Dimana :</p>
+                <p>L = Luas</p>
+                <p>S = Sisi</p><br>
+
+                <h2 class="text-center">Hitung Luas Persegi</h2>
+                 <div>
+                    <br><label>Sisi</label><br>
+                     <input type="text" id="sisil">
+                    <div id="outputl">
+                        <p>L = S x S <br>
+                        L = <span id="rumusl"></span><br>
+                         L = <span id="hasill"></span>
+                         </p><br>
+                    </div>
+
+                    <button class="btn-hitung" onclick="hitungl()" id="hitungl">Hitung</button>
+                    <button class="btn-reset" onclick="reset()" id="reset">Reset</button>
+                </div>
+
+                <br>
+            <div class="header">    
+                <h2 class="text-center">Keliling Persegi</h2>
+            </div>
+            <div class="text-center">    
+                <br><image src="bujursangkar.png">
+                    <p><b>Bujur Sangkar</b></p>
+                </image>
+            </div>
+
+                <p>Rumus Keliling Persegi :</p>
+                <p class="text-center"><b>K = 4 x S</b></p><br>
+                <p>Dimana :<br>
+                K = Keliling<br>
+                S = Sisi</p>
+
+                <br><h2 class="text-center">Hitung Keliling Persegi</h2>
+                <input type="text" id="sisik">
+
+                <div id="outputk">
+                     <p>L = 4 x S <br>
+                     L = <span id="rumusk"></span><br>
+                    L = <span id="hasilk"></span>
+                    </p>
+                </div>
+
+                <button class="btn-hitung" onclick="hitungk()" id="hitungk">Hitung</button>
+                <button class="btn-reset" onclick="reset()" id="reset">Reset</button>
+    </body>
+
+</html>

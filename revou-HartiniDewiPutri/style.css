@@ -1,0 +1,63 @@
+* {
+    font: Arial, sans-serif;
+}
+
+.parent {
+    padding: 5%;
+    text-align: center;
+}
+
+.header {
+	color: #fff !important;
+	background-color: #2980b9 !important;
+	padding: 25px;
+	border-bottom: 1px solid transparent;
+	border-top-left-radius: 0px;
+	border-top-right-radius: 0px;
+	border-bottom-left-radius: 0px;
+	border-bottom-right-radius: 0px;
+}
+
+.btn-hitung {
+    color: white;
+    background-color: #2980b9;
+    padding: 10px;
+    margin: 15px;
+    border-radius: 6px;
+    border-color: #2980b9;
+    border-width: 1px;
+}
+
+.btn-reset {
+    color: white;
+    background-color: #e6b30f;
+    padding: 10px;
+    margin: 15px;
+    border-radius: 6px;
+    border-color: #e6b30f;
+    border-width: 1px;
+}
+
+.btn-reset:hover {
+	color: #f0ad4e;
+	background-color: #ffffff;
+	border-color: #eea236;
+}
+
+.btn-hitung:hover {
+	color: #2980b9;
+	background-color: #ffffff;
+	border-color: #2980b9;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.text-left {
+    text-align: left;
+}
+
+.text-right {
+    text-align: right;
+}
